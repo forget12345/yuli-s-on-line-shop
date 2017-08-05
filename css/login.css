@@ -1,0 +1,104 @@
+*{
+	padding: 0px;/*清除内边距*/
+	margin: 0px;/*清除外边距*/
+}
+
+body{
+	font-family: Mirosoft YaHei;
+}
+
+.box{
+	width: 960px;
+	height: 600px;
+	margin: 0 auto;/*上下为0 左右自适应居中*/
+}
+/*之所以top.main.footer不需要设置宽度是因为外层的box已经将所有的宽度设置完毕了*/
+.top{
+	height: 100px;
+}
+.top a img{
+	margin-top: 40px;
+	/*知识点：margin-方向：距离某个方向顶端的距离*/
+}
+.main{
+	margin-top: 30px;
+	height: 300px;
+}
+
+.main_l img{
+	width:480px ;
+	height:300px;
+	float: left;
+}
+
+.main_r{
+	width:340px ;
+	height:300px;
+	float:right;
+	border: 1px solid #d8d8d8;		/*border使用方法：border: 宽度px 类型：实线等 颜色;*/
+	border-radius: 10px;			/* border-radius：圆角——px越大，弧度越大*/
+	box-shadow: 1px 1px 1px #d8d8d8; /*box-shadow: 投影水平方向，投影竖直方向，投影范围，投影颜色*/
+}
+
+.main_r_b{
+	padding: 30px 30px;
+
+}
+
+.main_r_b h4{
+	color:#e51937;
+}
+.main_r_b span{
+	float: right;
+	font-size:12px;
+	color: #888;
+}
+
+.main_r_b form{
+	margin-top: 20px;
+}
+.main_r_b form p{
+	font-size: 12px;
+	color: #888;
+	margin-top: 10px;
+}
+.main_r_b form p input{
+	width: 278px;
+	height: 40px;
+	padding: 0px 5px;			/*padding: 用法一：padding: 距离上下的px 距离左右的15px;*/
+										 /*用法二：pading-方向：距离的px*/
+	outline: none;				/*外边线，默认为存在且为浅蓝色*/
+	border: 1px solid #d8d8d8;		/*border使用方法：border: 宽度px 类型：实线等 颜色;*/
+	
+}
+.main_r_b form p  .bt{			/*知识点：如何在原本已经有css中写特列，比原本级数高的css写法*/
+	width: 115px;
+	height: 40px;
+	margin-top: 15px;
+	background-color: #FF373E;
+	border: 0px;
+	color: #fff;
+	cursor: pointer;			/*鼠标停留时候出现鼠标小手*/
+}
+
+.main_r_b form p a{
+	position: relative;			/* 知识点：相对定位relative（调整left或top）	 */
+	left: 104px;
+	color: #888;
+	text-decoration: none;		/*下划线为空*/
+
+}
+.main_r_b span a{
+	color:#e51937;
+	text-decoration: none;   /* 知识点：text-decoration控制下划线效果 */
+}
+.footer{
+	height: 30px;
+	margin-top: 20px;
+}
+.footer span{
+	float: right;
+	font-size: 12px;
+	color: #d8d8d8;
+	margin-right:153px;
+}

@@ -1,0 +1,432 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: Microsoft YaHei;
+}
+ul{ /* 定义所以ul样式*/
+	list-style-type: none;  /*知识点：ul样式为空*/
+}
+
+.header{
+	width: 100%;
+}
+
+.header_top{
+	height: 30px;
+	background: #F5F5F4;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.header_top_l{
+	float: left; 
+}
+.header_top_l ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.header_top_l ul li a{
+	font-size: 12px;
+	color: #333;
+	text-decoration: none; 	/*下划线消失*/
+}
+.header_top_r ul li a:hover{
+	color: #e51937;
+}
+.header_top_l ul li img{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top:7.5px;
+}
+.header_top_r{
+	float:right;
+}
+
+.header_top_r ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+.header_top_r ul li a{
+	font-size: 12px;
+	color: #333;
+	text-decoration: none; 	/*下划线消失*/
+}
+.header_top_r ul li span{
+	font-size: 12;
+	color: #888;
+	margin-left: 5px;
+}
+.header_logo{
+	height: 100px;
+	background: #fff;
+}
+.header_logo_l img{
+	margin-top: 25px;
+	float: left;
+}
+.header_logo_r img{
+	height: 100px;
+	width: 400px;
+	float: right;
+}
+.header_nav{
+	height: 40px;
+	background: #F42E34;
+}
+.header_nav_l{
+	float: left;
+}
+.header_nav_r{
+	float: right;
+}
+.header_nav_l ul li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	border-left: 1px solid #bb1830;
+}
+.header_nav_l ul li a{
+
+	text-decoration: none;
+	float-size:12px;
+	color: #fff;
+	padding:10px 35px;
+}
+.header_nav_l ul li a:hover{
+	background: #fff;
+	color: #F42E34;
+}
+.header_nav_r{
+	float: right;
+}
+.header_nav_r form input{
+	margin-top: 5px;
+	float: left;
+	border: 0;
+	height: 30px;
+	outline: none;
+	color: #888;
+	padding: 0px 5px;
+	width: 150;
+}
+
+.header_nav_r form .bt{
+	width: 30px;
+	height: 30px;
+	background: url(../img/sstb.jpg);
+	/*注意事项：此处是以css文件为起点寻找*/
+}
+
+.header_pic{
+	height: 350px;
+	background: #FBF3B6
+}
+
+.mid_main{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header_pic_b{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.main{
+	width: 100%;
+	background:#f3f3f3 ;
+	padding-top:10px;
+
+}
+
+.main_b{
+	width: 960px;
+	margin:0px auto;
+}
+
+.main_b_zc{
+	background: #6f508c;
+	padding: 10px 10px 0px 10px;
+
+}
+.main_b_zc_div{
+	width: 180px;
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.main_b_zc_div span{
+	display: block;		/*设置为块级元素*/
+	width: 45px;
+	height: 45px;
+	background: url(../img/bzh.png);
+	color: #fff;
+	line-height: 45px;					/*设置行内高度可自动居中*/
+	text-align: center;
+	position: relative;					/*相对定位*/
+	top:10px;
+	left: 10px
+}
+.main_b_zc_div p{
+	text-align: center;
+	padding-top: 10px;
+}
+.main_b_zc_div a img{
+	width: 180px;
+}
+.main_b_zc_div_div{
+	background: #FFC400;
+	height: 35px;
+	text-align: center;
+
+}
+.main_b_zc_div_div a{
+	font-size: 12px;
+	height: 35px;
+	line-height:35px;
+	color: #333;
+	text-decoration: none;
+}
+.main_b_buy{
+	height: 130px;
+	background: #fff;
+	margin-top: 10px;
+}
+
+.main_b_buy_div{
+	float: left;
+	width: 200px;
+	height: 65px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+.main_b_buy h4{
+padding: 20px;
+color: #333;
+}
+
+.main_b_buy h4 span{
+	font-size: 12px;
+	color: #888;
+	margin-left: 5px;
+}
+
+.main_b_buy_div_l{
+	float: left;
+}
+
+.main_b_buy_div_l img{
+	width: 60px;
+	height: 60px;
+	margin-right: 
+}
+
+.main_b_buy_div_r{
+	float: left;
+	margin-left: 10px;	
+}
+.main_b_buy_div_r p{
+	font-size:12px;
+	color: #333;
+	padding-top: 10px;
+}
+
+.main_b_buy_div_r p a{
+	color: #333;
+	text-decoration: none;
+}
+.main_b_buy_div_r p a:hover{
+
+	color:#F42E34;
+}
+
+.main_b_ff{
+	margin-top:10px;
+
+}
+.main_b_ff h4{
+		padding: 20px;
+	background: #fff;
+}
+.main_b_ff_box{
+	background:pink;
+	margin-top: 5px;
+
+}
+.main_b_ff_box_div{
+		width: 188px;
+		background: #fff;
+		padding-bottom: 10px;
+		border-bottom: 1px solid transparent;			/*transparent颜色透明*/
+		float: left;
+		margin-right: 5px;
+		margin-bottom: 5px;
+}
+
+.main_b_ff_box_div:hover{
+			border-bottom: 1px solid #e51937;
+}
+.main_b_ff_box_div a img{
+	width:180px;
+}
+
+.main_b_ff_box_div p{
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	
+}
+.main_b_ff_box_div p em{
+	color: #e51937;
+	font-size: 14px;
+}
+.main_b_ff_box_div p a{
+	display: inline-block;
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;		/*文字加粗效果*/
+	text-decoration: none;
+	text-align: center;
+	padding: 0 10px;
+	height: 20px;
+	overflow: hidden;			/*溢出隐藏*/
+
+}
+
+.main_b_ff_box_div p span{
+	color: #e51937;	
+}
+
+.main_b_logo{
+	margin-top: 20px;
+}
+
+.main_b_logo_div{
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding: 10px 0;
+	width: 185px;
+	text-align: center;
+	background: #fff;
+	float: left;
+	margin-left: 5px;
+}
+
+.main_b_logo_div img{
+	width: 180px;
+}
+
+
+
+.main_b_top h4{
+	padding: 20px;
+	background: #fff;
+	text-align: center;
+	padding-bottom: 30px
+}
+.main_b_top_div{
+	width: 232px;
+	background: #fff;
+	margin-top: 10px;
+	float: left;
+	margin-right: 10px;
+}
+.main_b_top_div h5{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.main_b_top_div_title{
+	padding: 0 0 10px 0;
+}
+.main_b_top_div_title p a{
+	display: inline-block;			/*行内转为块级元素  可以设置高低宽度等*/
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	padding: 0 20px;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;				/*溢出隐藏*/
+	font-weight: bold;
+}
+.main_b_top_div_title p .red{
+	color: red;
+}
+.footer{
+	width: 100%;
+}
+.footer_nav{
+	height: 40px;
+	background: #ED1417;
+	text-align: center;
+}
+
+.footer_nav  a{
+	font-size:12px;
+	color: #fff;
+	text-decoration: none; 
+	height: 40px;
+	line-height: 40px;
+	margin-left:30px;
+}
+.footer_link{
+	width: 960px;
+	margin: 0 auto;
+}
+.footer_link p{
+	font-size: 12px;
+	color: #333;
+	margin-top:10px;
+}
+.footer_link p a{
+	font-size: 12px;
+	color: #333;
+	text-decoration:none;
+	margin-left:10px;
+}
+.footer_bq{
+	width: 960px;
+	margin: 30px auto;
+}
+.footer_bq p{
+	font-size: 12px;
+	padding-top:10px;
+	color: #333;
+	text-align: center;
+}
+.float_div{
+	width: 100px;
+	position: fixed;   /*固定定位*/
+	top:55%;
+	right: 0px;
+}
+.float_div a{
+text-decoration: none;
+margin-bottom:10px;
+}
+.float_div a p{
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+	padding-bottom:10px;
+}
+.float_div a img{
+	width: 95px;
+	padding-bottom:10px;
+}
+.float_div_bt{
+	border: 1px solid #fff;
+}
+.float_div_bt:hover{
+	border: 2px solid #FF4FC7;
+}
